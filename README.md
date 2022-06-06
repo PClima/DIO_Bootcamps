@@ -13,9 +13,9 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
 
 ## Módulos
 
-- Módulo 1 (<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />/
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />/
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> )
+- Módulo 1 (<img alt="Pedro-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />/
+            <img alt="Pedro-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />/
+            <img alt="Pedro-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> )
     - Introcução HTML5 e CSS3
     - Posicionando Elementos com Flexbox em CSS
     - Recriando a página inicial do Instagram
@@ -61,7 +61,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
     - Desafios Iniciais Java - Santander FullStack Developer
     - Criando um Banco Digital com Java e Orientação a Objetos
 
-- Módulo 4 (Spring Framework)
+- Módulo 4 <img alt="Pedro-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />          
     - Conhecendo os principais Protocolos de Comunicação da Internet
     - Introdução ao framework Spring Boot
     - Imersão no Spring Framework com Spring Boot
