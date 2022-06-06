@@ -13,7 +13,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
 
 ## Módulos
 
-- Módulo 1 (<img alt="Pedro-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />/
+- Módulo 2 (<img alt="Pedro-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />/
             <img alt="Pedro-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />/
             <img alt="Pedro-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> )
     - Introcução HTML5 e CSS3
@@ -34,7 +34,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
     - Introdução ao Typescript: Explorando Classes, Tipos e Interfaces
     - Introdução Prática ao Typescript
 
-- Módulo 2 <img alt="Pedro-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+- Módulo 3 <img alt="Pedro-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
     - Introdução ao Angular 8
     - Trabalhando com páginas SPA com Angular 
     - A arquitetura de componentes e a gestão da complexidade no front-end
@@ -48,7 +48,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
     - Desafio Intermediário Js - Santander Fullstack Developer
     - Como criar um front-end e um e-commerce utilizando Angular
 
-- Módulo 3 <img alt="Pedro-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+- Módulo 4 <img alt="Pedro-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
     - Dominando IDEs Java
     - Variáveis, Tipos de dados e operadores matemáticos em java
     - Entendendo métodos Java
@@ -61,7 +61,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
     - Desafios Iniciais Java - Santander FullStack Developer
     - Criando um Banco Digital com Java e Orientação a Objetos
 
-- Módulo 4 <img alt="Pedro-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />          
+- Módulo 5 <img alt="Pedro-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />          
     - Conhecendo os principais Protocolos de Comunicação da Internet
     - Introdução ao framework Spring Boot
     - Imersão no Spring Framework com Spring Boot
