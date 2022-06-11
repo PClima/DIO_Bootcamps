@@ -75,7 +75,7 @@ Um repositório para organizar meus estudos durante o Bootcamp realizado pela Sa
     - Práticas avançadas em projetos com ReactJs
     - Criando um front-end totalmente componentizado na prática com ReactJs
 
-- Módulo 4 (<img alt="Pedro-SQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" />)
+- Módulo 4 (<img alt="Pedro-SQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />)
     - Conceitos e melhores práticas com bancos de dados PostgreSQL
     - Introdução ao MongoDB e Bancos de dados NoSQL
 
