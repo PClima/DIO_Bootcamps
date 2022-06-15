@@ -1,0 +1,42 @@
+<table mat-table [dataSource]="courses" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="Image">
+      <th mat-header-cell *matHeaderCellDef> Image </th>
+      <td mat-cell *matCellDef="let element"> {{element.imgUrl}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Price">
+      <th mat-header-cell *matHeaderCellDef> Price </th>
+      <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="Code">
+      <th mat-header-cell *matHeaderCellDef> Code </th>
+      <td mat-cell *matCellDef="let element"> {{element.code}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Release Date">
+      <th mat-header-cell *matHeaderCellDef> Release Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.releaseDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Rating">
+      <th mat-header-cell *matHeaderCellDef> Rating </th>
+      <td mat-cell *matCellDef="let element"> {{element.rating}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Options">
+        <th mat-header-cell *matHeaderCellDef colspan="2"> Options </th>
+        <td mat-cell *matCellDef=""> </td>
+        <td mat-cell *matCellDef=""></td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  
