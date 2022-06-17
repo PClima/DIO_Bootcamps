@@ -2,3 +2,17 @@ table {
     width: 90%;
     margin: auto;
 }
+
+h1{
+    margin-left: 5%;
+}
+
+.image-element-table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+}
+
+.table-head{
+    border-right: 1px solid black;
+}

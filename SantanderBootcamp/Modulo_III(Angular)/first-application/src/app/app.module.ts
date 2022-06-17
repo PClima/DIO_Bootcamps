@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import { StarComponent } from './star/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoursesComponent
+    CoursesComponent,
+    StarComponent
   ],
   imports: [
     BrowserModule,
