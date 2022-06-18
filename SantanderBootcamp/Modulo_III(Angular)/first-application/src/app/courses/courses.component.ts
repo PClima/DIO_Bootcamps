@@ -2,9 +2,7 @@ import { OnInit, Component } from '@angular/core';
 import { Course } from './Course'
 import { CourseService } from './course-service.service'
 
-
 @Component({
-  selector: 'app-courses',
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.css']
 })
@@ -13,7 +11,7 @@ export class CoursesComponent  implements OnInit {
 
   selectedCourse?: Course;
 
-  courses: Course[] = [];
+  _courses: Course[] = [];
   coursesFiltered: Course[] = [];
 
   constructor(private courseService: CourseService){ }
@@ -24,7 +22,7 @@ export class CoursesComponent  implements OnInit {
 
   getCourses(): void {
     this.courseService.getCourses()
-        .subscribe(courses => this.courses = courses);
+        .subscribe(courses => this._courses = courses);
     this.courseService.getCourses()
         .subscribe(courses => this.coursesFiltered = courses);
   }
@@ -33,7 +31,7 @@ export class CoursesComponent  implements OnInit {
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    this.coursesFiltered = this.courses.filter(item => item.name.trim().toLocaleLowerCase().includes(filterValue.trim().toLocaleLowerCase()))
+    this.coursesFiltered = this._courses.filter(item => item.name.trim().toLocaleLowerCase().includes(filterValue.trim().toLocaleLowerCase()))
   }
 }
 

@@ -11,7 +11,11 @@ export class CourseService {
   getCourses(): Observable<Course[]> {
     const course = of(COURSES);
     return course;
-}
+  }
+
+  getCourseById(id: number){
+    return COURSES.filter(item => item.id === id)
+  }
 }
 
 var COURSES: Course[] = [
