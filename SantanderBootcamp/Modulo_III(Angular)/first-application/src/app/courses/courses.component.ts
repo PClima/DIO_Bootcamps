@@ -1,6 +1,6 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { OnInit, Component } from '@angular/core';
 import { Course } from './Course'
-import { CourseService } from './courses.service'
+import { CourseService } from './course-service.service'
 
 
 @Component({
@@ -9,14 +9,31 @@ import { CourseService } from './courses.service'
   styleUrls: ['./courses.component.css']
 })
 
-export class CoursesComponent{
+export class CoursesComponent  implements OnInit {
 
-  constructor(private courseService: CourseService){
+  selectedCourse?: Course;
 
+  courses: Course[] = [];
+  coursesFiltered: Course[] = [];
+
+  constructor(private courseService: CourseService){ }
+
+  ngOnInit(): void {
+    this.getCourses();
   }
 
-  courses: Course[] = this.courseService.retrieveAll();
+  getCourses(): void {
+    this.courseService.getCourses()
+        .subscribe(courses => this.courses = courses);
+    this.courseService.getCourses()
+        .subscribe(courses => this.coursesFiltered = courses);
+  }
 
   displayedColumns: string[] = ["Image", "Name", "Price", "Code", "Release Date", "Rating", "Options"]
 
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.coursesFiltered = this.courses.filter(item => item.name.trim().toLocaleLowerCase().includes(filterValue.trim().toLocaleLowerCase()))
+  }
 }
+

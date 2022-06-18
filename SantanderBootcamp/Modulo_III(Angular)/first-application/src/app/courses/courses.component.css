@@ -16,3 +16,12 @@ h1{
 .table-head{
     border-right: 1px solid black;
 }
+
+.table-courses{
+    margin-top: 50px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}

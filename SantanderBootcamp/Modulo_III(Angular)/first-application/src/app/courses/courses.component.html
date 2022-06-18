@@ -1,7 +1,12 @@
 
 <h1>Course List</h1>
 
-<table mat-table [dataSource]="courses" class="mat-elevation-z8">
+<mat-form-field appearance="standard">
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Course Name" #input>
+</mat-form-field>
+
+<table mat-table [dataSource]="coursesFiltered" class="mat-elevation-z8 table-courses">
 
     <ng-container matColumnDef="Image">
       <th mat-header-cell *matHeaderCellDef>  </th>
@@ -38,8 +43,11 @@
         <td mat-cell *matCellDef=""> </td>
         <td mat-cell *matCellDef=""></td>
     </ng-container>
-  
+
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+    </tr>
+
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
-  
