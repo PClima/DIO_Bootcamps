@@ -1,6 +1,5 @@
-# FirstApplication
+# TrabalhandoComPaginasSPA
 
-To Create a new Angular project just install angular/cli and run the "ng new my-app" command on terminal
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
 ## Development server
